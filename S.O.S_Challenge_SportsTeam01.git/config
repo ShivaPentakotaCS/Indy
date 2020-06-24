@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/ShivaPentakotaCS/S.O.S_Challenge_SportsTeam01.git
+	fetch = +refs/*:refs/*
+	mirror = true

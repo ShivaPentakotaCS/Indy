@@ -109,7 +109,12 @@ C:\Users\Austin\source\repos\Sports_Team01\Sports_Team01\obj\Debug\netcoreapp3.1
 C:\Users\Austin\source\repos\Sports_Team01\Sports_Team01\obj\Debug\netcoreapp3.1\Sports_Team01.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Austin\source\repos\Sports_Team01\Sports_Team01\obj\Debug\netcoreapp3.1\Razor\Pages\Home.cshtml.g.cs
 C:\Users\Austin\source\repos\Sports_Team01\Sports_Team01\obj\Debug\netcoreapp3.1\Razor\Pages\Login.cshtml.g.cs
-C:\Users\Austin\source\repos\Sports_Team01\Sports_Team01\obj\Debug\netcoreapp3.1\Razor\Pages\Archive.cshtml.g.cs
-C:\Users\Austin\source\repos\Sports_Team01\Sports_Team01\obj\Debug\netcoreapp3.1\Razor\Pages\Live.cshtml.g.cs
 C:\Users\Austin\source\repos\Sports_Team01\Sports_Team01\obj\Debug\netcoreapp3.1\Razor\Pages\Colts.cshtml.g.cs
 C:\Users\Austin\source\repos\Sports_Team01\Sports_Team01\obj\Debug\netcoreapp3.1\Razor\Pages\Pacers.cshtml.g.cs
+C:\Users\Austin\source\repos\Sports_Team01\Sports_Team01\obj\Debug\netcoreapp3.1\Razor\Pages\ColtsArchive.cshtml.g.cs
+C:\Users\Austin\source\repos\Sports_Team01\Sports_Team01\obj\Debug\netcoreapp3.1\Razor\Pages\PacersArchive.cshtml.g.cs
+C:\Users\Austin\source\repos\Sports_Team01\Sports_Team01\obj\Debug\netcoreapp3.1\Razor\Pages\IMS.cshtml.g.cs
+C:\Users\Austin\source\repos\Sports_Team01\Sports_Team01\obj\Debug\netcoreapp3.1\Razor\Pages\IMSArchive.cshtml.g.cs
+C:\Users\Austin\source\repos\Sports_Team01\Sports_Team01\obj\Debug\netcoreapp3.1\Razor\Pages\IMSLive.cshtml.g.cs
+C:\Users\Austin\source\repos\Sports_Team01\Sports_Team01\obj\Debug\netcoreapp3.1\Razor\Pages\PacersLive.cshtml.g.cs
+C:\Users\Austin\source\repos\Sports_Team01\Sports_Team01\obj\Debug\netcoreapp3.1\Razor\Pages\ColtsLive.cshtml.g.cs

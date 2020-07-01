@@ -11,38 +11,31 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Home"><img src="~/images/Logos/Indy_Sports_Net_Logo_Transparent.png" height="200" width="200" /> </a>
+                <a class="navbar-brand" asp-area="" asp-page="/Home"><img src="~/images/Logos/Indy_Sports_Net_Logo_Transparent.png" height="150" width="150" /> </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="dropdown nav-item">
-                            <a class="dropdown-toggle text-dark" data-toggle="dropdown">Teams<span class="caret"/></a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="nav-link text-dark" asp-area="" asp-page="Colts">Colts</a>
-                                    <a class="nav-link text-dark" asp-area="" asp-page="Pacers">Pacers</a>
-                                    <a class="nav-link text-dark" asp-area="" asp-page="IMS">IMS</a>
+                        <li class="nav-item">
+                            <a class="btn btn-primary" asp-area="" asp-page="Colts"><img src="~/images/Logos/Colts_Logo_Transparent.png" width="40" height="40" /> Colts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-primary" asp-area="" asp-page="Pacers"><img src="~/images/Logos/Pacers_Logo_Transparent.png" width="40" height="40" /> Pacers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-primary" asp-area="" asp-page="IMS"><img src="~/images/Logos/IMS_Logo_Transparent.png" width="60" height="40" />  IMS</a>
+                        </li>
+                        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="btn btn-primary" asp-area="" asp-page="/Login">Login / Sign Up</a>
                                 </li>
                             </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Live">Live</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Archive">Archive</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Login">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
+                        </div>
                     </ul>
-                </div>
-            </div>
+              </div>
         </nav>
     </header>
     <div class="container">

@@ -4,56 +4,58 @@
     ViewData["Title"] = "PacersArchive";
 }
 
-<header>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-        <div class="container">
-            <a class="navbar-brand" asp-area="" asp-page="/Pacers"><img src="~/images/Logos/Pacers_Logo_Transparent.png" height="150" width="150" /> </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                <ul class="navbar-nav flex-grow-1">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-page="/PacersLive">Live</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-page="/PacersArchive">Archive</a>
-                    </li>
-                    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://www.facebook.com/pacers">
-                                    <img src="~/images/Social Media/Facebook_Logo_Transparent.png" width="50" height="50" />
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://www.instagram.com/pacers/?hl=en">
-                                    <img src="~/images/Social Media/Instagram_Logo_Transparent.png" width="50" height="50" />
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://twitter.com/Pacers?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
-                                    <img src="~/images/Social Media/Twitter_Logo_Transparent.png" width="50" height="50" />
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://www.pacersteamstore.com/">
-                                    <img src="~/images/Social Media/Pacers_Shop_Transparent.png" width="175" height="75" />
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </ul>
+<body style="background-color: #FDBB30;">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-page="/Pacers"><img src="~/images/Logos/Pacers_Logo_Transparent.png" height="150" width="150" /> </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="btn btn-pacers" asp-area="" asp-page="/PacersLive">Live</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-pacers" asp-area="" asp-page="/PacersArchive">Archive</a>
+                        </li>
+                        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.facebook.com/pacers">
+                                        <img src="~/images/Social Media/Facebook_Logo_Transparent.png" width="50" height="50" />
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.instagram.com/pacers/?hl=en">
+                                        <img src="~/images/Social Media/Instagram_Logo_Transparent.png" width="50" height="50" />
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://twitter.com/Pacers?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                                        <img src="~/images/Social Media/Twitter_Logo_Transparent.png" width="50" height="50" />
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.pacersteamstore.com/">
+                                        <img src="~/images/Social Media/Pacers_Shop_Transparent.png" width="175" height="75" />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-</header>
-<h1>Pacers Archive</h1>
-<div>
-    <h3>Reggie Miller 8 Points in 9 Seconds</h3>
-    <video controls>
-        <source src="~/videos/Remembering Reggie Miller's legendary 8 points in 9 seconds [May 7, 1995] SportsCenter ESPN.mp4" type="video/mp4" />
-    </video>
-</div>
+        </nav>
+    </header>
 
+    <h1>Pacers Archive</h1>
+    <div>
+        <h3>Reggie Miller 8 Points in 9 Seconds</h3>
+        <video controls>
+            <source src="~/videos/Remembering Reggie Miller's legendary 8 points in 9 seconds [May 7, 1995] SportsCenter ESPN.mp4" type="video/mp4" />
+        </video>
+    </div>
+</body>

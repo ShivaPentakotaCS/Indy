@@ -5,49 +5,52 @@
 }
 
 <h1></h1>
-<form method="post">
-    <label>Message:</label>
-    <label style="color:@Model.MessageColor">@Model.Message</label>
-    <br />
-    <div class="container jumbotron">
-        <div class="row">
-            <div class="radio">
-                <input asp-for="radUser" id="radEmployee" type="radio" value="Employee" />
-                <label for="radEmployee">Employee</label>
+
+<body style="background-color:darkgrey">
+    <form method="post">
+        <label>Message:</label>
+        <label style="color:@Model.MessageColor">@Model.Message</label>
+        <br />
+        <div class="container jumbotron">
+            <div class="row">
+                <div class="radio">
+                    <input asp-for="radUser" id="radEmployee" type="radio" value="Employee" />
+                    <label for="radEmployee">Employee</label>
+                </div>
+                <div class="radio">
+                    <input asp-for="radUser" id="radCustomer" type="radio" value="Customer" />
+                    <label for="radCustomer">Customer</label>
+                </div>
             </div>
-            <div class="radio">
-                <input asp-for="radUser" id="radCustomer" type="radio" value="Customer" />
-                <label for="radCustomer">Customer</label>
+            <div class="row">
+                <div class="col-sm-3 col-md-3 col-lg-2 col-xl-2">
+                    <label asp-for="EmailAddress" class="control-label font-weight-bold"></label>
+                </div>
+                <div class="col-sm-7 col-md-5 col-lg-4 col-xl-2-sm-4">
+                    <input name="EmailAddress" type="text" class="form-control" />
+                    <span asp-validation-for="EmailAddress" class="text-danger" />
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-3 col-md-3 col-lg-2 col-xl-2">
-                <label asp-for="EmailAddress" class="control-label font-weight-bold"></label>
+            <div class="row">
+                <div class="col-sm-3 col-md-3 col-lg-2 col-xl-2">
+                    <label asp-for="Password" class="control-label font-weight-bold"></label>
+                </div>
+                <div class="col-sm-7 col-md-5 col-lg-4 col-xl-2-sm-4">
+                    <input name="Password" type="password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger" />
+                </div>
             </div>
-            <div class="col-sm-7 col-md-5 col-lg-4 col-xl-2-sm-4">
-                <input name="EmailAddress" type="text" class="form-control" />
-                <span asp-validation-for="EmailAddress" class="text-danger" />
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-3 col-md-3 col-lg-2 col-xl-2">
-                <label asp-for="Password" class="control-label font-weight-bold"></label>
-            </div>
-            <div class="col-sm-7 col-md-5 col-lg-4 col-xl-2-sm-4">
-                <input name="Password" type="password" class="form-control" />
-                <span asp-validation-for="Password" class="text-danger" />
-            </div>
-        </div>
-        <div>
-            <br />
             <div>
-            </div>
-            <div class="col-sm-7 col-md-5 col-lg-4 col-xl-2-sm-4">
-                <input asp-page-handler="Login" class="btn-primary" type="submit" value="Login" />
+                <br />
+                <div>
+                </div>
+                <div class="col-sm-7 col-md-5 col-lg-4 col-xl-2-sm-4">
+                    <input asp-page-handler="Login" class="btn-primary" type="submit" value="Login" />
+                </div>
             </div>
         </div>
-    </div>
-</form>
+    </form>
+</body>
 @section Scripts{
     @{ await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

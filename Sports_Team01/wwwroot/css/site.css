@@ -13,9 +13,64 @@ a {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    color: black;
+    background-color: white;
+    border-color: black;
+    display: inline-block;
+    border-radius: 5px;
+    border-color: black;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    width: 125px;
+    transition: all 0.2s;
+    cursor: pointer;
+    margin: 5px;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: black;
+
+}
+
+.btn-colts {
+    color: whitesmoke;
+    background-color: #002C5F;
+    display: inline-block;
+    border-radius: 5px;
+    border-color: black;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    width: 125px;
+    transition: all 0.2s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+    .btn-colts:hover {
+        color: #002C5F;
+        background-color: whitesmoke;
+    }
+
+.btn-pacers {
+    color: whitesmoke;
+    background-color: #002D62;
+    display: inline-block;
+    border-radius: 5px;
+    border-color: black;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    width: 125px;
+    transition: all 0.2s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btn-pacers:hover {
+    color: #FDBB30;
+    background-color: whitesmoke;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -62,6 +117,11 @@ body {
     background-color:aliceblue;
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+}
+
+pacers_body {
+    background-color:gold;
+    margin-bottom:60px;
 }
 .footer {
   position: absolute;

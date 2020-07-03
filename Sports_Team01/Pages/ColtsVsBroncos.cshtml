@@ -1,0 +1,55 @@
+﻿@page
+@model Sports_Team01.Pages.ColtsVsBroncosModel
+@{
+    ViewData["Title"] = "ColtsVsBroncos";
+}
+
+    <body style="background-color: #002C5F">
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+                <div class="container">
+                    <a class="navbar-brand" asp-area="" asp-page="/Colts"><img src="~/images/Logos/Colts_Logo_Transparent.png" height="150" width="150" /> </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="btn btn-colts" asp-area="" asp-page="/ColtsLive">Live</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-colts" asp-area="" asp-page="/ColtsArchive">Archive</a>
+                            </li>
+                            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://www.facebook.com/colts/">
+                                            <img src="~/images/Social Media/Facebook_Logo_Transparent.png" width="50" height="50" />
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://www.instagram.com/colts/?hl=en">
+                                            <img src="~/images/Social Media/Instagram_Logo_Transparent.png" width="50" height="50" />
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://twitter.com/Colts?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                                            <img src="~/images/Social Media/Twitter_Logo_Transparent.png" width="50" height="50" />
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://shop.colts.com/">
+
+                                            <img src="~/images/Social Media/Colts_Shop_Transparent.png" />
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        </body>

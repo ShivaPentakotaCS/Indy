@@ -118,3 +118,11 @@ C:\Users\Shiva\Desktop\IndySportsNet\S.O.S_Challenge_SportsTeam01\Sports_Team01\
 C:\Users\Shiva\Desktop\IndySportsNet\S.O.S_Challenge_SportsTeam01\Sports_Team01\obj\Release\netcoreapp3.1\Sports_Team01.dll
 C:\Users\Shiva\Desktop\IndySportsNet\S.O.S_Challenge_SportsTeam01\Sports_Team01\obj\Release\netcoreapp3.1\Sports_Team01.pdb
 C:\Users\Shiva\Desktop\IndySportsNet\S.O.S_Challenge_SportsTeam01\Sports_Team01\obj\Release\netcoreapp3.1\Sports_Team01.genruntimeconfig.cache
+C:\Users\Shiva\Desktop\IndySportsNet\S.O.S_Challenge_SportsTeam01\Sports_Team01\obj\Release\netcoreapp3.1\Razor\Pages\ColtsSuperbowl.cshtml.g.cs
+C:\Users\Shiva\Desktop\IndySportsNet\S.O.S_Challenge_SportsTeam01\Sports_Team01\obj\Release\netcoreapp3.1\Razor\Pages\ColtsVsBroncos.cshtml.g.cs
+C:\Users\Shiva\Desktop\IndySportsNet\S.O.S_Challenge_SportsTeam01\Sports_Team01\obj\Release\netcoreapp3.1\Razor\Pages\ColtsVsChiefs.cshtml.g.cs
+C:\Users\Shiva\Desktop\IndySportsNet\S.O.S_Challenge_SportsTeam01\Sports_Team01\obj\Release\netcoreapp3.1\Razor\Pages\Indy2006.cshtml.g.cs
+C:\Users\Shiva\Desktop\IndySportsNet\S.O.S_Challenge_SportsTeam01\Sports_Team01\obj\Release\netcoreapp3.1\Razor\Pages\Indy2018.cshtml.g.cs
+C:\Users\Shiva\Desktop\IndySportsNet\S.O.S_Challenge_SportsTeam01\Sports_Team01\obj\Release\netcoreapp3.1\Razor\Pages\PacersVsBulls.cshtml.g.cs
+C:\Users\Shiva\Desktop\IndySportsNet\S.O.S_Challenge_SportsTeam01\Sports_Team01\obj\Release\netcoreapp3.1\Razor\Pages\PacersVsHeat.cshtml.g.cs
+C:\Users\Shiva\Desktop\IndySportsNet\S.O.S_Challenge_SportsTeam01\Sports_Team01\obj\Release\netcoreapp3.1\Razor\Pages\PacersVsRaptors.cshtml.g.cs

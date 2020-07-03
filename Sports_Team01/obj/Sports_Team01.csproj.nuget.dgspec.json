@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Shiva\\Desktop\\SportsTeam\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\Sports_Team01.csproj": {}
+    "C:\\Users\\Shiva\\Desktop\\IndySportsNet\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\Sports_Team01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Shiva\\Desktop\\SportsTeam\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\Sports_Team01.csproj": {
+    "C:\\Users\\Shiva\\Desktop\\IndySportsNet\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\Sports_Team01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Shiva\\Desktop\\SportsTeam\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\Sports_Team01.csproj",
+        "projectUniqueName": "C:\\Users\\Shiva\\Desktop\\IndySportsNet\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\Sports_Team01.csproj",
         "projectName": "Sports_Team01",
-        "projectPath": "C:\\Users\\Shiva\\Desktop\\SportsTeam\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\Sports_Team01.csproj",
+        "projectPath": "C:\\Users\\Shiva\\Desktop\\IndySportsNet\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\Sports_Team01.csproj",
         "packagesPath": "C:\\Users\\Shiva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Shiva\\Desktop\\SportsTeam\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\obj\\",
+        "outputPath": "C:\\Users\\Shiva\\Desktop\\IndySportsNet\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Shiva\\AppData\\Roaming\\NuGet\\NuGet.Config",

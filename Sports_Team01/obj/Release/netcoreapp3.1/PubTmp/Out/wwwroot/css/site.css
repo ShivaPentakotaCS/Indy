@@ -1,0 +1,152 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+    color: black;
+    background-color: white;
+    border-color: black;
+    display: inline-block;
+    border-radius: 5px;
+    border-color: black;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    width: 125px;
+    transition: all 0.2s;
+    cursor: pointer;
+    margin: 5px;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: black;
+
+}
+
+.btn-colts {
+    color: whitesmoke;
+    background-color: #002C5F;
+    display: inline-block;
+    border-radius: 5px;
+    border-color: black;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    width: 125px;
+    transition: all 0.2s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btn-colts:hover {
+    color: #002C5F;
+    background-color: whitesmoke;
+}
+
+.btn-IMS {
+    color: whitesmoke;
+    background-color: darkgoldenrod;
+    display: inline-block;
+    border-radius: 5px;
+    border-color: black;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    width: 125px;
+    transition: all 0.2s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btn-IMS:hover {
+    color: darkgoldenrod;
+    background-color: whitesmoke;
+}
+
+.btn-pacers {
+    color: whitesmoke;
+    background-color: #002D62;
+    display: inline-block;
+    border-radius: 5px;
+    border-color: black;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    width: 125px;
+    transition: all 0.2s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btn-pacers:hover {
+    color: #FDBB30;
+    background-color: whitesmoke;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    background-color:aliceblue;
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+pacers_body {
+    background-color:gold;
+    margin-bottom:60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}

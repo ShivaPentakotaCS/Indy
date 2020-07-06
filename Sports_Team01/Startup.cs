@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Sports_Team01.hubs;
 
 namespace Sports_Team01
 {
@@ -24,6 +25,8 @@ namespace Sports_Team01
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddSignalR();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,6 +53,7 @@ namespace Sports_Team01
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
+                endpoints.MapHub<hubs.ChatHub>("/chathub");
             });
         }
     }

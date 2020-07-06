@@ -53,4 +53,37 @@
         </header>
         <h1 style="color:white">2007 Superbowl Colts vs Bears</h1>
         <iframe width="1280" height="720" src="//ok.ru/videoembed/1383805684260" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+
+
+
+        <!--testing base chat-->
+        <div class="container">
+            <div class="row">&nbsp;</div>
+            <div class="row">
+                <div class="col-2">User</div>
+                <div class="col-4"><input type="text" id="userInput" /></div>
+            </div>
+            <div class="row">
+                <div class="col-2">Message</div>
+                <div class="col-4"><input type="text" id="messageInput" /></div>
+            </div>
+            <div class="row">&nbsp;</div>
+            <div class="row">
+                <div class="col-6">
+                    <input type="button" id="sendButton" value="Send Message" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <hr />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <ul id="messagesList"></ul>
+            </div>
+        </div>
+        <script src="~/js/signalr/dist/browser/signalr.js"></script>
+        <script src="~/js/chat.js"></script>
     </body>

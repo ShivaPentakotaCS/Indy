@@ -6071,19 +6071,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Austin\\.nuget\\packages\\": {}
+    "C:\\Users\\Shiva\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Austin\\Desktop\\Sports_Team01\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\Sports_Team01.csproj",
+      "projectUniqueName": "C:\\Users\\Shiva\\Indy\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\Sports_Team01.csproj",
       "projectName": "Sports_Team01",
-      "projectPath": "C:\\Users\\Austin\\Desktop\\Sports_Team01\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\Sports_Team01.csproj",
-      "packagesPath": "C:\\Users\\Austin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Austin\\Desktop\\Sports_Team01\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\obj\\",
+      "projectPath": "C:\\Users\\Shiva\\Indy\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\Sports_Team01.csproj",
+      "packagesPath": "C:\\Users\\Shiva\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Shiva\\Indy\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Austin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Shiva\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

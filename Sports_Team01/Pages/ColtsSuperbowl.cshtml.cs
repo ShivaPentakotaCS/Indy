@@ -14,7 +14,7 @@ namespace Sports_Team01.Pages
         {
             //Initialize the header data.
             ViewData["Status"] = HttpContext.Session.GetString("Status");
-            ViewData["Page"] = "Welcome";
+            ViewData["Page"] = "Super Bowl XLI";
             ViewData["User"] = HttpContext.Session.GetString("User");
             ViewData["MessageColor"] = HttpContext.Session.GetString("MessageColor");
             ViewData["Message"] = HttpContext.Session.GetString("Message");

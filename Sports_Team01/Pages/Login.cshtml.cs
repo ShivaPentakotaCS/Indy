@@ -59,7 +59,7 @@ namespace Sports_Team01
                     HttpContext.Session.SetString("User", strUser);
                     HttpContext.Session.SetString("Status", strStatus);
                     HttpContext.Session.SetString("MessageColor", "Green");
-                    HttpContext.Session.SetString("Message", "You have logged in successfully! Welcome to Indy Sports Net!");
+                    HttpContext.Session.SetString("Message", "Logged In");
                     return Redirect("HomeLoggedIn");
                 }
                 else if(EmailAddress == "shiva@indysportsnet.com" && Password == "abc")
@@ -70,7 +70,7 @@ namespace Sports_Team01
                     HttpContext.Session.SetString("User", strUser);
                     HttpContext.Session.SetString("Status", strStatus);
                     HttpContext.Session.SetString("MessageColor", "Green");
-                    HttpContext.Session.SetString("Message", "You have logged in successfully! Welcome to Indy Sports Net!");
+                    HttpContext.Session.SetString("Message", "Logged In");
                     return Redirect("HomeLoggedIn");
                 }
                 else if(EmailAddress == "chris@indysportsnet.com" && Password == "abc")
@@ -81,7 +81,7 @@ namespace Sports_Team01
                     HttpContext.Session.SetString("User", strUser);
                     HttpContext.Session.SetString("Status", strStatus);
                     HttpContext.Session.SetString("MessageColor", "Green");
-                    HttpContext.Session.SetString("Message", "You have logged in successfully! Welcome to Indy Sports Net!");
+                    HttpContext.Session.SetString("Message", "Logged In");
                     return Redirect("HomeLoggedIn");
                 }
                 else
@@ -103,7 +103,7 @@ namespace Sports_Team01
                     HttpContext.Session.SetString("User", strUser);
                     HttpContext.Session.SetString("Status", strStatus);
                     HttpContext.Session.SetString("MessageColor", "Green");
-                    HttpContext.Session.SetString("Message", "You have logged in successfully! Welcome to Indy Sports Net!");
+                    HttpContext.Session.SetString("Message", "Logged In");
                     return Redirect("HomeLoggedIn");
                 }
                 else

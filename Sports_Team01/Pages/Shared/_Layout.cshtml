@@ -11,33 +11,65 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Home"><img src="~/images/Logos/Indy_Sports_Net_Logo_Transparent.png" height="150" width="150" /> </a>
+                <a class="navbar-brand" asp-area="" asp-page="HomeNotLoggedIn"><img src="~/images/Logos/Indy_Sports_Net_Logo_Transparent.png" height="150" width="150" /> </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="btn btn-primary" asp-area="" asp-page="Colts"><img src="~/images/Logos/Colts_Logo_Transparent.png" width="40" height="40" /> Colts</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="btn btn-primary" asp-area="" asp-page="Pacers"><img src="~/images/Logos/Pacers_Logo_Transparent.png" width="40" height="40" /> Pacers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="btn btn-primary" asp-area="" asp-page="IMS"><img src="~/images/Logos/IMS_Logo_Transparent.png" width="60" height="40" />  IMS</a>
-                        </li>
-                        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-                            <ul class="navbar-nav ml-auto">
-                                <li class="nav-item">
-                                    <a class="btn btn-primary" asp-area="" asp-page="/Login">Login / Sign Up</a>
-                                </li>
-                            </ul>
-                        </div>
+                        
+                        @if ((String)ViewData["Status"] == "Customer")
+                        {
+                            <li class="nav-item">
+                                <a class="btn btn-primary" asp-area="" asp-page="Colts"><img src="~/images/Logos/Colts_Logo_Transparent.png" width="40" height="40" /> Colts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-primary" asp-area="" asp-page="Pacers"><img src="~/images/Logos/Pacers_Logo_Transparent.png" width="40" height="40" /> Pacers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-primary" asp-area="" asp-page="IMS"><img src="~/images/Logos/IMS_Logo_Transparent.png" width="60" height="40" />  IMS</a>
+                            </li>
+                            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a class="btn btn-primary" asp-area="" asp-page="Initialize">Log Out</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        }
+                        @if ((String)ViewData["Status"] == "Employee")
+                        {
+                            <li class="nav-item">
+                                <a class="btn btn-primary" asp-area="" asp-page="Colts"><img src="~/images/Logos/Colts_Logo_Transparent.png" width="40" height="40" /> Colts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-primary" asp-area="" asp-page="Pacers"><img src="~/images/Logos/Pacers_Logo_Transparent.png" width="40" height="40" /> Pacers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-primary" asp-area="" asp-page="IMS"><img src="~/images/Logos/IMS_Logo_Transparent.png" width="60" height="40" />  IMS</a>
+                            </li>
+                        }
+                        @if ((String)ViewData["Status"] == null) { 
+                            <h1>Welcome To Indy Sports Net!</h1>
+                            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a class="btn btn-primary" asp-area="" asp-page="/Login">Login / Sign Up</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        }
                     </ul>
-              </div>
+                </div>
         </nav>
     </header>
+    <div class="container" style="color:white; font-size: 30px; ">
+        <label style="font-size: 1.25rem;">@ViewData["Page"] | </label>
+        <label style="font-size: 1.25rem;">@ViewData["User"] | </label>
+        <label style="font-size: 1.25rem;">@ViewData["Status"] | </label>
+        <label style="font-size: 1.25rem; color:@ViewData["MessageColor"]">@ViewData["Message"]</label>
+    </div>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

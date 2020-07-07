@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Sports_Team01.Pages
 {
-    public class ColtsVsChiefsModel : PageModel
+    public class HomeLoggedInModel : PageModel
     {
         public void OnGet()
         {

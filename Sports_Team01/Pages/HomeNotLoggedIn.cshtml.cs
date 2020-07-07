@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Sports_Team01.Pages
 {
-    public class HomeModel : PageModel
+    public class HomeNotLoggedInModel : PageModel
     {
         public void OnGet()
         {

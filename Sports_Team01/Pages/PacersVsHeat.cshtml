@@ -4,88 +4,97 @@
     ViewData["Title"] = "PacersVsHeat";
 }
 
-<body style="background-color: #FDBB30;">
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Pacers"><img src="~/images/Logos/Pacers_Logo_Transparent.png" height="150" width="150" /> </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="btn btn-pacers" asp-area="" asp-page="/PacersLive">Live</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="btn btn-pacers" asp-area="" asp-page="/PacersArchive">Archive</a>
-                        </li>
-                        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-                            <ul class="navbar-nav ml-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="https://www.facebook.com/pacers">
-                                        <img src="~/images/Social Media/Facebook_Logo_Transparent.png" width="50" height="50" />
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="https://www.instagram.com/pacers/?hl=en">
-                                        <img src="~/images/Social Media/Instagram_Logo_Transparent.png" width="50" height="50" />
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="https://twitter.com/Pacers?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
-                                        <img src="~/images/Social Media/Twitter_Logo_Transparent.png" width="50" height="50" />
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="https://www.pacersteamstore.com/">
-                                        <img src="~/images/Social Media/Pacers_Shop_Transparent.png" width="175" height="75" />
-                                    </a>
-                                </li>
-                            </ul>
+    <body style="background-color: #FDBB30;">
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+                <div class="container">
+                    <a class="navbar-brand" asp-area="" asp-page="/Pacers"><img src="~/images/Logos/Pacers_Logo_Transparent.png" height="150" width="150" /> </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="btn btn-pacers" asp-area="" asp-page="/PacersLive">Live</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-pacers" asp-area="" asp-page="/PacersArchive">Archive</a>
+                            </li>
+                            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://www.facebook.com/pacers">
+                                            <img src="~/images/Social Media/Facebook_Logo_Transparent.png" width="50" height="50" />
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://www.instagram.com/pacers/?hl=en">
+                                            <img src="~/images/Social Media/Instagram_Logo_Transparent.png" width="50" height="50" />
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://twitter.com/Pacers?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                                            <img src="~/images/Social Media/Twitter_Logo_Transparent.png" width="50" height="50" />
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://www.pacersteamstore.com/">
+                                            <img src="~/images/Social Media/Pacers_Shop_Transparent.png" width="175" height="75" />
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <h1>2013 Eastern Conference Finals Game 2 Pacers VS Heat</h1>
+
+        <div class="row">
+            <iframe width="550" height="300" src="https://www.youtube.com/embed/SB4exk_QQwU" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media;
+                    gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+
+            <!--testing base chat-->
+            <div class="jumbotron">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-3"><label style="font-weight:bold">User</label></div>
+                        <div class="col-4"><input type="text" id="userInput" value=@ViewData["User"] /></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3"><label style="font-weight:bold">Message</label></div>
+                        <div class="col-4"><input type="text" id="messageInput" /></div>
+                    </div>
+                    <div class="row">&nbsp;</div>
+                    <div class="row">
+                        <div class="col-6">
+                            <input class="btn-pacers" type="button" id="sendButton" value="Send Message" />
                         </div>
-                    </ul>
+                    </div>
                 </div>
             </div>
-        </nav>
-    </header>
-    <h1>2013 Eastern Conference Finals Game 2 Pacers VS Heat</h1>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/SB4exk_QQwU" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media;
-                gyroscope; picture-in-picture" allowfullscreen>
-    </iframe>
 
-
-    <!--testing base chat-->
-    <div class="container">
-        <div class="row">
-            <div class="col-2"><label style="color:white">User</label></div>
-            <div class="col-4"><input type="text" id="userInput" value=@ViewData["User"] /></div>
-        </div>
-        <div class="row">
-            <div class="col-2"><label style="color:white">Message</label></div>
-            <div class="col-4"><input type="text" id="messageInput" /></div>
-        </div>
-        <div class="row">&nbsp;</div>
-        <div class="row">
-            <div class="col-6">
-                <input class="btn-colts" type="button" id="sendButton" value="Send Message" />
+            <div class="row">
+                <div class="col-12">
+                    <hr style="color:white" />
+                </div>
+            </div>
+            <div class="jumbotron" style="background-color: #A2AAAD">
+                <h5>Messages:</h5>
+                <div class="row">
+                    <div class="col-6">
+                        <ul id="messagesList"></ul>
+                    </div>
+                </div>
+                <script src="~/js/signalr/dist/browser/signalr.js"></script>
+                <script src="~/js/chat.js"></script>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-12">
-            <hr />
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-6">
-            <ul style="color:white" id="messagesList"></ul>
-        </div>
-    </div>
-    <script src="~/js/signalr/dist/browser/signalr.js"></script>
-    <script src="~/js/chat.js"></script>
-</body>
+    </body>
 
 

@@ -15,15 +15,15 @@ namespace Sports_Team01.Pages
             //Logout the user.
             HttpContext.Session.Clear();
 
-            //Initialize the header data.
-            HttpContext.Session.SetString("User", "*");
-            HttpContext.Session.SetString("Status", "*");
-            HttpContext.Session.SetString("MessageColor", "Green");
-            HttpContext.Session.SetString("Message", "Please log in.");
+            ////Initialize the header data.
+            //HttpContext.Session.SetString("User", "*");
+            //HttpContext.Session.SetString("Status", "");
+            //HttpContext.Session.SetString("MessageColor", "Green");
+            //HttpContext.Session.SetString("Message", "Successfully logged out.");
 
 
             //Redirect to the login page.
-            return Redirect("/Login");
+            return Redirect("Login");
         }
     }
 }

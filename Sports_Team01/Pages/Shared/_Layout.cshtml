@@ -11,16 +11,15 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="HomeNotLoggedIn"><img src="~/images/Logos/Indy_Sports_Net_Logo_Transparent.png" height="150" width="150" /> </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
-
-                        @if ((String)ViewData["Status"] == "Customer")
-                        {
+                @if ((String)ViewData["Status"] == "Customer")
+                {
+                    <a class="navbar-brand" asp-area="" asp-page="HomeLoggedIn"><img src="~/images/Logos/Indy_Sports_Net_Logo_Transparent.png" height="150" width="150" /> </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                        <ul class="navbar-nav flex-grow-1">
                             <li class="nav-item">
                                 <a class="btn btn-primary" asp-area="" asp-page="Colts"><img src="~/images/Logos/Colts_Logo_Transparent.png" width="40" height="40" /> Colts</a>
                             </li>
@@ -37,9 +36,18 @@
                                     </li>
                                 </ul>
                             </div>
-                        }
-                        @if ((String)ViewData["Status"] == "Employee")
-                        {
+                        </ul>
+                    </div>
+                }
+                @if ((String)ViewData["Status"] == "Employee")
+                {
+                    <a class="navbar-brand" asp-area="" asp-page="HomeLoggedIn"><img src="~/images/Logos/Indy_Sports_Net_Logo_Transparent.png" height="150" width="150" /> </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                        <ul class="navbar-nav flex-grow-1">
                             <li class="nav-item">
                                 <a class="btn btn-primary" asp-area="" asp-page="Colts"><img src="~/images/Logos/Colts_Logo_Transparent.png" width="40" height="40" /> Colts</a>
                             </li>
@@ -56,9 +64,18 @@
                                     </li>
                                 </ul>
                             </div>
-                        }
-                        @if ((String)ViewData["Status"] == null)
-                        {
+                        </ul>
+                    </div>
+                }
+                @if ((String)ViewData["Status"] == null)
+                {
+                    <a class="navbar-brand" asp-area="" asp-page="HomeNotLoggedIn"><img src="~/images/Logos/Indy_Sports_Net_Logo_Transparent.png" height="150" width="150" /> </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                        <ul class="navbar-nav flex-grow-1">
                             <h1>Welcome To Indy Sports Net!</h1>
                             <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
                                 <ul class="navbar-nav ml-auto">
@@ -67,9 +84,10 @@
                                     </li>
                                 </ul>
                             </div>
-                        }
-                    </ul>
-                </div>
+                        </ul>
+                    </div>
+                }
+            </div>
         </nav>
     </header>
     <div class="container" style="color:white; font-size: 30px; ">

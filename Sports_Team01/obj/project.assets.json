@@ -6076,11 +6076,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Austin\\Desktop\\d\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\Sports_Team01.csproj",
+      "projectUniqueName": "C:\\Users\\Austin\\Desktop\\Sports_Team01\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\Sports_Team01.csproj",
       "projectName": "Sports_Team01",
-      "projectPath": "C:\\Users\\Austin\\Desktop\\d\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\Sports_Team01.csproj",
+      "projectPath": "C:\\Users\\Austin\\Desktop\\Sports_Team01\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\Sports_Team01.csproj",
       "packagesPath": "C:\\Users\\Austin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Austin\\Desktop\\d\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\obj\\",
+      "outputPath": "C:\\Users\\Austin\\Desktop\\Sports_Team01\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Austin\\AppData\\Roaming\\NuGet\\NuGet.Config",

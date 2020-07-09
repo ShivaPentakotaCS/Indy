@@ -93,7 +93,7 @@ namespace Sports_Team01
                     return Redirect("Login");
                 }
             }
-            else
+            else if (radUser == "Customer")
             {
                 if(EmailAddress == "jake@abc.com" && Password == "abc")
                 {
@@ -114,6 +114,14 @@ namespace Sports_Team01
                     HttpContext.Session.SetString("Message", "Please enter a valid email address and password.");
                     return Redirect("Login");
                 }
+            }
+            else
+            {
+                //initialize the header data.
+                HttpContext.Session.SetString("User", "*");
+                HttpContext.Session.SetString("Messagecolor", "Red");
+                HttpContext.Session.SetString("Message", "Please select employee or customer before logging in.");
+                return Redirect("Login");
             }
         }
     }

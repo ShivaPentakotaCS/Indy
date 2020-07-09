@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3mLOCA80y/5yPwQACFQni3xH+uDQzhMDTeAgp6lluRDkxrwfXgp1lmQFj2pqiyZNrU/llSVEmoZ1lN+cY0C35g==",
+  "dgSpecHash": "JhRisCttN3Hx6WywLA5Nfh6Eb+en8bcjoNrDPdzkv4991icCpds11BEUH1BYheRIPw5hmf/T2E6a3qGh710iZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Austin\\Desktop\\d\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\Sports_Team01.csproj",
+  "projectFilePath": "C:\\Users\\Austin\\Desktop\\Sports_Team01\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\Sports_Team01.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Austin\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Austin\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

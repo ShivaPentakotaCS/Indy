@@ -121,6 +121,16 @@ input[type=text]:focus {
     border: 3px solid #555;
 }
 
+textarea {
+    display: inline-block;
+    border-radius: 5px;
+    border-color: black;
+    font-size: 14px;
+    padding: 10px;
+    transition: all 0.2s;
+    margin: 5px;
+}
+
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #1b6ec2;

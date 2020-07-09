@@ -13,11 +13,9 @@ connection.on("ReceiveMessage", function (user, message) {
     var para = document.createElement("P");
     para.innerText = encodedMsg;
     if (count === 20) {
-        while (count > 5) {
-            var list = document.getElementById("messagesList");
-            list.removeChild(list.childNodes[0]);
-            count--;
-        }
+       var list = document.getElementById("messagesList");
+       list.removeChild(list.childNodes[0]);
+       count--;
     }
     document.getElementById("messagesList").appendChild(para);
 });

@@ -93,6 +93,26 @@ a {
     background-color: whitesmoke;
 }
 
+.btn-block {
+    color: black;
+    background-color: white;
+    border-color: black;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s;
+    margin: 5px;
+}
+
+    .btn-block:hover {
+        color: white;
+        background-color: black;
+    }
+
 input[type=password] {
     display: inline-block;
     border-radius: 5px;

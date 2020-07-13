@@ -57,45 +57,41 @@
     <h1>1998 Eastern Confernece Finals Game 4 Pacers VS Bulls</h1>
 
     <div class="row">
-        <iframe width="550" height="300" src="https://www.youtube.com/embed/Xe4f_RYNtd4" frameborder="0"
+        <iframe width="990" height="500" src="https://www.youtube.com/embed/Xe4f_RYNtd4" frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
 
-        <!--testing base chat-->
-        <div class="jumbotron">
-            <div class="container">
-                <div class="row">
-                    <div class="col-3"><label style="font-weight:bold">User</label></div>
-                    <div class="col-4"><input type="text" id="userInput" value=@ViewData["User"] /></div>
-                </div>
-                <div class="row">
-                    <div class="col-3"><label style="font-weight:bold">Message</label></div>
-                    <div class="col-4"><input type="text" id="messageInput" /></div>
-                </div>
-                <div class="row">&nbsp;</div>
-                <div class="row">
-                    <div class="col-6">
-                        <input class="btn-pacers" type="button" id="sendButton" value="Send Message" />
+        <div class="row">
+            <!--testing base chat-->
+            <div class="jumbotron overflow-auto" style="width:1000px; height:400px; max-width: 1200px; max-height: 400px;">
+                <div class="container">
+                    <h5>Messages:</h5>
+                    <div class="row">
+                        <div class="col-12">
+                            <hr style="color:white" />
+                        </div>
                     </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul id="messagesList"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="jumbotron" style=" width:600px;  height:180px;">
+                <div class="row">
+                    <div class="col-2"><label style="font-weight:bold">User</label></div>
+                    <input style="font-weight:bold" type="text" id="userInput" value=@ViewData["User"] />
+                </div>
+                <div class="row">
+                    <div class="col-2"><label style="font-weight:bold">Message<nbsp /></label></div>
+                    <input type="text" id="messageInput" /><div id="sendButton"><img src="~/images/sendmessage.png" width="45" height="45" /></div>
                 </div>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-12">
-                <hr style="color:white" />
-            </div>
-        </div>
-        <div class="jumbotron" style="background-color: #A2AAAD">
-            <h5>Messages:</h5>
-            <div class="row">
-                <div class="col-6">
-                    <ul id="messagesList"></ul>
-                </div>
-            </div>
-            <script src="~/js/signalr/dist/browser/signalr.js"></script>
-            <script src="~/js/chat.js"></script>
-        </div>
-    </div>
+        <script src="~/js/signalr/dist/browser/signalr.js"></script>
+        <script src="~/js/chat.js"></script>
 </body>
 

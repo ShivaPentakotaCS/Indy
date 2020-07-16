@@ -108,10 +108,11 @@ a {
     margin: 5px;
 }
 
-    .btn-block:hover {
-        color: white;
-        background-color: black;
-    }
+.btn-block:hover {
+    color: white;
+    background-color: black;
+    border-color: white;
+}
 
 input[type=password] {
     display: inline-block;

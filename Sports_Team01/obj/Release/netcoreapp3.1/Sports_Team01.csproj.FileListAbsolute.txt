@@ -1448,3 +1448,4 @@ C:\Users\Austin\Desktop\p\S.O.S_Challenge_SportsTeam01\Sports_Team01\obj\Release
 C:\Users\Austin\Desktop\p\S.O.S_Challenge_SportsTeam01\Sports_Team01\obj\Release\netcoreapp3.1\Sports_Team01.pdb
 C:\Users\Austin\Desktop\p\S.O.S_Challenge_SportsTeam01\Sports_Team01\obj\Release\netcoreapp3.1\Sports_Team01.genruntimeconfig.cache
 C:\Users\Austin\Desktop\p\S.O.S_Challenge_SportsTeam01\Sports_Team01\obj\Release\netcoreapp3.1\Razor\Pages\AboutUs.cshtml.g.cs
+C:\Users\Austin\Desktop\Sports_Team01\S.O.S_Challenge_SportsTeam01\Sports_Team01\obj\Release\netcoreapp3.1\Razor\Pages\AboutUs.cshtml.g.cs

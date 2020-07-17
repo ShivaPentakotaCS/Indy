@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/shivapentakota/Desktop/week4/S.O.S_Challenge_SportsTeam01/Sports_Team01/Sports_Team01.csproj": {}
+    "C:\\Users\\Austin\\Desktop\\p\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\Sports_Team01.csproj": {}
   },
   "projects": {
-    "/Users/shivapentakota/Desktop/week4/S.O.S_Challenge_SportsTeam01/Sports_Team01/Sports_Team01.csproj": {
+    "C:\\Users\\Austin\\Desktop\\p\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\Sports_Team01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/shivapentakota/Desktop/week4/S.O.S_Challenge_SportsTeam01/Sports_Team01/Sports_Team01.csproj",
+        "projectUniqueName": "C:\\Users\\Austin\\Desktop\\p\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\Sports_Team01.csproj",
         "projectName": "Sports_Team01",
-        "projectPath": "/Users/shivapentakota/Desktop/week4/S.O.S_Challenge_SportsTeam01/Sports_Team01/Sports_Team01.csproj",
-        "packagesPath": "/Users/shivapentakota/.nuget/packages/",
-        "outputPath": "/Users/shivapentakota/Desktop/week4/S.O.S_Challenge_SportsTeam01/Sports_Team01/obj/",
+        "projectPath": "C:\\Users\\Austin\\Desktop\\p\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\Sports_Team01.csproj",
+        "packagesPath": "C:\\Users\\Austin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Austin\\Desktop\\p\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/shivapentakota/.config/NuGet/NuGet.Config"
+          "C:\\Users\\Austin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

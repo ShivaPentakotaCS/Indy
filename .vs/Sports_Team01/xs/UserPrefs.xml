@@ -1,14 +1,10 @@
 ﻿<Properties StartupConfiguration="{1F245552-EA83-4941-BB25-519ADD369997}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Sports_Team01/Pages/PacersVsRaptors.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Sports_Team01/Pages/Privacy.cshtml">
     <Files>
-      <File FileName="Sports_Team01/Pages/ColtsSuperbowl.cshtml" Line="92" Column="41" />
-      <File FileName="Sports_Team01/Pages/ColtsVsBroncos.cshtml" Line="65" Column="16" />
-      <File FileName="Sports_Team01/Pages/ColtsVsChiefs.cshtml" Line="63" Column="26" />
-      <File FileName="Sports_Team01/Pages/Indy2006.cshtml" Line="66" Column="26" />
-      <File FileName="Sports_Team01/Pages/Indy2018.cshtml" Line="81" Column="27" />
-      <File FileName="Sports_Team01/Pages/PacersVsBulls.cshtml" Line="92" Column="15" />
-      <File FileName="Sports_Team01/Pages/PacersVsHeat.cshtml" Line="67" Column="12" />
-      <File FileName="Sports_Team01/Pages/PacersVsRaptors.cshtml" Line="60" Column="35" />
+      <File FileName="Sports_Team01/Pages/ColtsArchive.cshtml" Line="68" Column="113" />
+      <File FileName="Sports_Team01/Pages/IMSArchive.cshtml" Line="63" Column="96" />
+      <File FileName="Sports_Team01/Pages/PacersArchive.cshtml" Line="70" Column="1" />
+      <File FileName="Sports_Team01/Pages/Privacy.cshtml" Line="12" Column="7" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,7 +12,13 @@
           <Node name="Sports_Team01" expanded="True">
             <Node name="Sports_Team01" expanded="True">
               <Node name="Pages" expanded="True">
-                <Node name="PacersVsRaptors.cshtml" selected="True" />
+                <Node name="Privacy.cshtml" selected="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="images" expanded="True">
+                  <Node name="IMS" expanded="True" />
+                  <Node name="Pacers" expanded="True" />
+                </Node>
               </Node>
             </Node>
           </Node>

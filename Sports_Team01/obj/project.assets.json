@@ -6071,26 +6071,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Austin\\.nuget\\packages\\": {}
+    "/Users/shivapentakota/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Austin\\Desktop\\Sports_Team01\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\Sports_Team01.csproj",
+      "projectUniqueName": "/Users/shivapentakota/Desktop/week4/S.O.S_Challenge_SportsTeam01/Sports_Team01/Sports_Team01.csproj",
       "projectName": "Sports_Team01",
-      "projectPath": "C:\\Users\\Austin\\Desktop\\Sports_Team01\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\Sports_Team01.csproj",
-      "packagesPath": "C:\\Users\\Austin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Austin\\Desktop\\Sports_Team01\\S.O.S_Challenge_SportsTeam01\\Sports_Team01\\obj\\",
+      "projectPath": "/Users/shivapentakota/Desktop/week4/S.O.S_Challenge_SportsTeam01/Sports_Team01/Sports_Team01.csproj",
+      "packagesPath": "/Users/shivapentakota/.nuget/packages/",
+      "outputPath": "/Users/shivapentakota/Desktop/week4/S.O.S_Challenge_SportsTeam01/Sports_Team01/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Austin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/shivapentakota/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6130,7 +6128,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
       }
     }
   }

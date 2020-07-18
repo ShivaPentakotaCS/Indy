@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{1F245552-EA83-4941-BB25-519ADD369997}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Sports_Team01/Pages/Privacy.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Sports_Team01/Pages/PacersLive.cshtml">
     <Files>
-      <File FileName="Sports_Team01/Pages/ColtsArchive.cshtml" Line="68" Column="113" />
-      <File FileName="Sports_Team01/Pages/IMSArchive.cshtml" Line="63" Column="96" />
-      <File FileName="Sports_Team01/Pages/PacersArchive.cshtml" Line="70" Column="1" />
-      <File FileName="Sports_Team01/Pages/Privacy.cshtml" Line="12" Column="7" />
+      <File FileName="Sports_Team01/Pages/IMS.cshtml" Line="80" Column="15" />
+      <File FileName="Sports_Team01/Pages/IMSLive.cshtml" Line="57" Column="1" />
+      <File FileName="Sports_Team01/Pages/Pacers.cshtml" Line="82" Column="85" />
+      <File FileName="Sports_Team01/Pages/PacersLive.cshtml" Line="54" Column="19" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +12,7 @@
           <Node name="Sports_Team01" expanded="True">
             <Node name="Sports_Team01" expanded="True">
               <Node name="Pages" expanded="True">
-                <Node name="Privacy.cshtml" selected="True" />
+                <Node name="PacersLive.cshtml" selected="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="images" expanded="True">

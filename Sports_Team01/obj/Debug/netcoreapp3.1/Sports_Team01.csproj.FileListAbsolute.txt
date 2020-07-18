@@ -629,3 +629,4 @@ C:/Users/Shiva/Desktop/IndySportsNet/S.O.S_Challenge_SportsTeam01/Sports_Team01/
 /Users/shivapentakota/Desktop/week4/S.O.S_Challenge_SportsTeam01/Sports_Team01/obj/Debug/netcoreapp3.1/Sports_Team01.dll
 /Users/shivapentakota/Desktop/week4/S.O.S_Challenge_SportsTeam01/Sports_Team01/obj/Debug/netcoreapp3.1/Sports_Team01.pdb
 /Users/shivapentakota/Desktop/week4/S.O.S_Challenge_SportsTeam01/Sports_Team01/obj/Debug/netcoreapp3.1/Sports_Team01.genruntimeconfig.cache
+/Users/shivapentakota/Desktop/week4/S.O.S_Challenge_SportsTeam01/Sports_Team01/obj/Debug/netcoreapp3.1/Razor/Pages/AboutUs.cshtml.g.cs

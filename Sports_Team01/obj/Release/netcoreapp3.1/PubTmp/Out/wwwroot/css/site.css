@@ -93,10 +93,94 @@ a {
     background-color: whitesmoke;
 }
 
+.btn-block {
+    color: black;
+    background-color: white;
+    border-color: black;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s;
+    margin: 5px;
+}
+
+.btn-block:hover {
+    color: white;
+    background-color: black;
+    border-color: white;
+}
+
+input[type=password] {
+    display: inline-block;
+    border-radius: 5px;
+    border-color: black;
+    font-size: 14px;
+    padding: 10px;
+    transition: all 0.2s;
+    margin: 5px;
+}
+
+input[type=password]:focus {
+    border: 3px solid #555;
+}
+
+input[type=text] {
+    display: inline-block;
+    border-radius: 5px;
+    border-color: black;
+    font-size: 14px;
+    padding: 10px;
+    transition: all 0.2s;
+    margin: 5px;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+textarea {
+    display: inline-block;
+    border-radius: 5px;
+    border-color: black;
+    font-size: 14px;
+    padding: 10px;
+    transition: all 0.2s;
+    margin: 5px;
+}
+
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
+}
+
+.radio input[type=radio] {
+    /*Hide original radio button.*/
+    display: none;
+}
+
+.radio label:before {
+    background-color: lightgray;
+    border-radius: 1.00rem;
+    content: "\00a0";
+    display: inline-block;
+    margin-right: 0.25rem;
+    text-align: center;
+    width: 1.50rem;
+}
+
+.radio label:hover:before {
+    background-color: darkgray;
+    transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out, border-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
+}
+
+.radio input:checked ~ label:before {
+    /*checked symbol*/
+    content: "\2713";
 }
 
 /* Sticky footer styles
@@ -134,7 +218,7 @@ html {
 }
 
 body {
-    background-color:aliceblue;
+    background-color:white;
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
